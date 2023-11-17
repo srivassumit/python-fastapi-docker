@@ -36,7 +36,7 @@ From the OpenAPI JSON Spec JSON, client can be generated using [openapi-typescri
 > Running `npx` requires NodeJS to be installed: `brew install nodejs`.
 
 ```
-npx openapi-typescript-codegen --input http://localhost:8000/openapi.json --output client/generated --client axios --name PythonAPI
+npx openapi-typescript-codegen --input http://localhost:8000/openapi.json --output client/generated --client axios --name AppClient
 ```
 
 ### Reference
